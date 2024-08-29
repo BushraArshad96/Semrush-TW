@@ -69,7 +69,7 @@ CMD ["python", "/app/application.py"]
 
 > **_NOTE:_**  This `Dockerfile` uses a **Python 3.5** base image, then copies the application code into the container, and configures the container to run the Python web server on port **8000**.
 
-4. Now, you need to build the Docker image. Access a terminal and navigate to the root of the project directory i.e., quickstart_docker, then run the following command:
+4. Now, you need to build the Docker image. Access a terminal and navigate to the root of the project directory i.e., `quickstart_docker`, then run the following command:
 
 ```bash
 docker build -f docker/application/Dockerfile -t exampleapp .
